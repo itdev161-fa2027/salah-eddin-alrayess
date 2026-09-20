@@ -1,0 +1,8 @@
+$kind: collection
+name: ITDEV-161 API
+description: |-
+  Collection for the ITDEV-161 Express server.
+  Contains requests for all available endpoints running on localhost:3000.
+variables:
+  - key: base_url
+    value: 'http://localhost:3000'
