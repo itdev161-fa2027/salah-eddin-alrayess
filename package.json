@@ -5,9 +5,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node server.js",
-  "server": "nodemon server.js"
-},
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "config": "^5.0.1",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.2"
+  }
 }
