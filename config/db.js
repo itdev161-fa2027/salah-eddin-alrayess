@@ -15,6 +15,7 @@ const connectDatabase = async () => {
     console.log('Connected to MongoDB');
   } catch (error) {
     console.error(error.message);
+    console.dir(error.reason, { depth: 5 });
     process.exit(1);
   }
 };
